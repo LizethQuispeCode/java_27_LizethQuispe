@@ -23,7 +23,7 @@ public class Main {
         empleado1.actualizarCargo("Desarrollador Senior");
         System.out.println("\n");
 
-      
+
         System.out.println("--- Prueba para ejercicio5 ---");
         Ejercicio5 nuevaPersona = new Ejercicio5("María", 30);
         nuevaPersona.saludar();
