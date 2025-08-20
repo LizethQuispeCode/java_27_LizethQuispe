@@ -1,10 +1,10 @@
-package vallegrande.edu.pe.model;
 
-public class Ejercicio2 {
+
+public class ejercicio2 {
     String marca;
     String modelo;
 
-    public Ejercicio2(String marca, String modelo) {
+    public ejercicio1(String marca, String modelo) {
         this.marca = marca;
         this.modelo = modelo;
     }
@@ -13,3 +13,4 @@ public class Ejercicio2 {
         System.out.println("El " + this.marca + " " + this.modelo + " ha arrancado.");
     }
 }
+

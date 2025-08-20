@@ -22,6 +22,7 @@ public class Calculadora extends JFrame { // 👈 Extiende JFrame para que funci
         setContentPane(mainPanel); // panel principal generado en el .form
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // cerrar app al salir
         pack(); // ajusta el tamaño automático
+        setSize(400, 300); // ancho x alto en píxeles
         setLocationRelativeTo(null); // centrar ventana en pantalla
 
         // Cambiar texto de los botones

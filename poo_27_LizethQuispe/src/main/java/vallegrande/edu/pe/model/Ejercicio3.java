@@ -1,9 +1,14 @@
-package model;
+package vallegrande.edu.pe.model;
 
 public class Ejercicio3 {
-    int a, b;
+    double valor;
 
-    public int sumar() {
-        return a + b;
+    public Ejercicio3(double numeroInicial) {
+        this.valor = numeroInicial;
+    }
+
+    public double sumar(double otroNumero) {
+        this.valor += otroNumero;
+        return this.valor;
     }
 }
